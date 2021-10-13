@@ -1,5 +1,5 @@
 import app from "./index.js";
-import { getFirestore, collection, addDoc, getDocs, onSnapshot} from "https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"
+import { getFirestore, collection, addDoc, getDocs, onSnapshot, deleteDoc, doc} from "https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"
 
 const db = getFirestore(app);
 
@@ -35,7 +35,7 @@ taskForm.addEventListener("submit", async (e) => {
 //READ Section
 const getTasks = () => getDocs(collection(db, "tasks"));
 const onGetTasks = (callback) => onSnapshot(collection(db, "tasks"), callback);
-const deleteTask = id => db.collection("tasks").doc(id).delete();
+const deleteTask = id => deleteDoc(db,'tasks',id);
 
 window.addEventListener('DOMContentLoaded', async (e) => {
     onGetTasks((querySnapshot) => {
