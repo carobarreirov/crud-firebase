@@ -44,6 +44,7 @@ window.addEventListener('DOMContentLoaded', async (e) => {
             console.log(doc.data());
     
             const task = doc.data();
+            task.id = doc.id;
     
             taskCard.innerHTML += `<div class="card card-body mt-2 
             border-primary">
