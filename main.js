@@ -78,6 +78,19 @@ window.addEventListener('DOMContentLoaded', async (e) => {
             const btnsDelete = document.querySelectorAll('.btn-delete');
             btnsDelete.forEach(btn => {
                 btn.addEventListener('click', async (e) => await deleteTask(e.target.dataset.id))
+
+                // <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                // <div class="toast-header">
+                // <strong class="me-auto">Bootstrap</strong>
+                // <small>11 mins ago</small>
+                // <button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close">
+                // <span aria-hidden="true"></span>
+                // </button>
+                // </div>
+                // <div class="toast-body">
+                // Hello, world! This is a toast message.
+                // </div>
+                // </div>
             })
 //UPDATE SECTION
             const btnsEdit = document.querySelectorAll('.btn-edit');
@@ -94,7 +107,6 @@ window.addEventListener('DOMContentLoaded', async (e) => {
                     taskForm['btn-task-form'].innerText = 'Update';
                 })
             })
-
         });
     })  
 })
