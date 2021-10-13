@@ -41,7 +41,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/pulse/bootstrap.min.css">
 ```
 
-More templates on [Bootswatch] (https://bootswatch.com/) and CDN links on [BootstrapCDN] (https://www.bootstrapcdn.com/bootswatch/)
+More templates on [Bootswatch](https://bootswatch.com/) and CDN links on [BootstrapCDN](https://www.bootstrapcdn.com/bootswatch/)
 
 ## Firebase and Firestore
 ### Start Firebase project and application
