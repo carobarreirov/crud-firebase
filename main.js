@@ -1,5 +1,5 @@
 import app from "./index.js";
-import { getFirestore, collection, addDoc, getDocs, onSnapshot} from "https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"
+import { getFirestore, collection, addDoc, getDocs, onSnapshot, deleteDoc, doc} from "https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"
 
 const db = getFirestore(app);
 
@@ -35,6 +35,7 @@ taskForm.addEventListener("submit", async (e) => {
 //READ Section
 const getTasks = () => getDocs(collection(db, "tasks"));
 const onGetTasks = (callback) => onSnapshot(collection(db, "tasks"), callback);
+const deleteTask = (id) => deleteDoc(doc(db, "tasks", id));
 
 window.addEventListener('DOMContentLoaded', async (e) => {
     onGetTasks((querySnapshot) => {
@@ -49,10 +50,15 @@ window.addEventListener('DOMContentLoaded', async (e) => {
             <h3 class="h5"> ${task.title}</h3>
             <p> ${task.description}</p>
             <div>
-                <button class="btn btn-primary"> Delete </buttton>
+                <button class="btn btn-primary btn-delete data-id="${task.id}"> Delete </buttton>
                 <button class="btn btn-secondary"> Edit </buttton>
             </div>
             </div>`
+
+            const btnsDelete = document.querySelectorAll('.btn-delete');
+            btnsDelete.forEach(btn => {
+                btn.addEventListener('click', async (e) => await deleteTask(e.target.db.id))
+            })
         });
     })  
 })
