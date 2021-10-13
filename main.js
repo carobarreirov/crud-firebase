@@ -13,6 +13,10 @@ const saveTask = (title, description) =>
         description,
     });
 
+const deleteTask = id => {
+    db.collection("tasks").doc(id).delete();
+};
+
 taskForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
