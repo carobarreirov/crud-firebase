@@ -35,7 +35,7 @@ taskForm.addEventListener("submit", async (e) => {
 //READ Section
 const getTasks = () => getDocs(collection(db, "tasks"));
 const onGetTasks = (callback) => onSnapshot(collection(db, "tasks"), callback);
-const deleteTask = id => deleteDoc(db,'tasks',id);
+const deleteTask = (id) => deleteDoc(doc(db, "tasks", id));
 
 window.addEventListener('DOMContentLoaded', async (e) => {
     onGetTasks((querySnapshot) => {
@@ -50,14 +50,14 @@ window.addEventListener('DOMContentLoaded', async (e) => {
             <h3 class="h5"> ${task.title}</h3>
             <p> ${task.description}</p>
             <div>
-                <button class="btn btn-primary btn-delete"> Delete </buttton>
+                <button class="btn btn-primary btn-delete data-id="${task.id}"> Delete </buttton>
                 <button class="btn btn-secondary"> Edit </buttton>
             </div>
             </div>`
 
             const btnsDelete = document.querySelectorAll('.btn-delete');
             btnsDelete.forEach(btn => {
-                btn.addEventListener('click', async (e) => await deleteTask(e.target.dataset.id))
+                btn.addEventListener('click', async (e) => await deleteTask(e.target.db.id))
             })
         });
     })  
