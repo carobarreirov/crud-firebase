@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', async (e) => {
             const btnsDelete = document.querySelectorAll('.btn-delete');
             btnsDelete.forEach(btn => {
                 btn.addEventListener('click', async (e) => {
-                    console.log(e.target.db.id)
+                    console.log(e.target.db.id);
                     await deleteTask(e.target.db.id)
                 })
             })
