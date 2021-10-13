@@ -57,10 +57,7 @@ window.addEventListener('DOMContentLoaded', async (e) => {
 
             const btnsDelete = document.querySelectorAll('.btn-delete');
             btnsDelete.forEach(btn => {
-                btn.addEventListener('click', async (e) => {
-                    console.log(e.target.dataset.id);
-                    await deleteTask(e.target.dataset.id)
-                })
+                btn.addEventListener('click', async (e) => await deleteTask(e.target.dataset.id))
             })
         });
     })  
