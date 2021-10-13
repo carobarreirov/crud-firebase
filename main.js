@@ -31,8 +31,8 @@ taskForm.addEventListener("submit", async (e) => {
         await saveTask(title, description);
     } else {
         await updateTask(id, {
-            title,
-            description,
+            title: title,
+            description: description,
         }) 
         
         editStatus = false;
@@ -52,8 +52,8 @@ const onGetTasks = (callback) => onSnapshot(collection(db, "tasks"), callback);
 //Delete Section
 const deleteTask = (id) => deleteDoc(doc(db, "tasks", id));
 //UPDATE Section
-const getTask = (id) => getDoc(collection(db, "tasks", id));
-const updateTask = (id, updateTask) => updateDoc(collection(db, "tasks", id), updateTask);
+const getTask = (id) => getDoc(doc(db, "tasks", id));
+const updateTask = (id, updateTask) => updateDoc(doc(db, "tasks", id), updateTask);
 
 //READ Section
 window.addEventListener('DOMContentLoaded', async (e) => {
