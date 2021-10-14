@@ -70,25 +70,17 @@ window.addEventListener('DOMContentLoaded', async (e) => {
             <h3 class="h5"> ${task.title}</h3>
             <p> ${task.description}</p>
             <div>
-                <button class="btn btn-danger btn-del" data-id="${task.id}" data-toggle="modal" data-target="#deleteModal"> Delete </buttton>
+                <button class="btn btn-danger btn-delete" data-id="${task.id}"> Delete </buttton>
                 <button class="btn btn-primary btn-edit" data-id="${task.id}"> Edit </buttton>
             </div>
             </div>`
 //DELETE SECTION
-            const btnsDel = document.querySelectorAll('.btn-del');
-            btnsDel.forEach(btn => {
-                btn.addEventListener('click', (e) => {
-
-                    const btnDelID = e.target.dataset.id;
-                }) 
-
-            })
 
             const btnsDelete = document.querySelectorAll('.btn-delete');
             btnsDelete.forEach(btn => {
                 btn.addEventListener('click', async (e) => {
                     
-                    await deleteTask(btnDelID);
+                    await deleteTask(e.target.dataset.id);
                 }) 
 
             })
