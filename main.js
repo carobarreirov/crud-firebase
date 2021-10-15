@@ -7,6 +7,7 @@ const db = getFirestore(app);
 const taskForm = document.getElementById("task-form");
 const taskTitle = document.getElementById("task-title");
 const taskDes = document.getElementById("task-description");
+
 // Card Element
 const taskCard = document.getElementById("task-card");
 //Update Flag 
