@@ -25,5 +25,6 @@ const saveTask = (title, description) =>
   });
 ```
 
-- > Previous Step [here](/01firebase.md)
-- > Next Step [here](/03read.md)
+> Previous Step [here](/01firebase.md)
+
+> Next Step [here](/03read.md)
