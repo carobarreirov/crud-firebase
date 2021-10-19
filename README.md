@@ -8,12 +8,17 @@ All our tasks will be stored in a database and all operations will be reflected 
 
 ## Usage 
 
-You can go to the To-Do List App on [crud-firebase repository](https://github.com/carobarreirov/crud-firebase) to see how it works. 
+You can go to the To-Do List App on live through [crud-firebase repository](https://carobarreirov.github.io/crud-firebase/) to see how it works. 
 
 You'll find and intro and more information about the tools we use. 
-In the App section you will be able to interact with the four CRUD operations through the shown interface.  
+In the [App section](https://carobarreirov.github.io/crud-firebase/#app) you will be able to interact with the four CRUD operations through the shown interface.  
 
 ![App Interface](/images/todo-app.png)
+ 
+ Haven fun! 
+ Everything you see is being updated on the console in our Firebase project under the Cloud Firestore database. 
+ 
+ ![Cloud Firestore Console](/images/cfirestore.png)
  
  # How to develop this App [Guide]
  ## Html and CSS, the UI
