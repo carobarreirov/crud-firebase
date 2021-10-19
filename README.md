@@ -23,7 +23,7 @@ In the [App section](https://carobarreirov.github.io/crud-firebase/#app) you wil
  
  ## How to develop this App [Guide]
  - Start UI project [here](/guide/starterfiles.md)
- - Start Firebase project [here](/guide/readme.md)
+ - Start Firebase project [here](/guide/firebase.md)
  - [C]rud Operation [here](/guide/readme.md)
  - c[R]ud Operation [here](/guide/readme.md)
  - cr[U]d Operation [here](/guide/readme.md)
