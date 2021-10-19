@@ -13,7 +13,7 @@
 You can find the `Update code` in this [branch](https://github.com/carobarreirov/crud-firebase/tree/update) in the `main.js` [file](https://github.com/carobarreirov/crud-firebase/blob/update/main.js)
 
 The `getDoc`, `doc`and `updateDoc`modules were added to our project.
-Find more information about those modules on the [Firestore]() official Docs site.
+Find more information about those modules on the [Firestore](https://firebase.google.com/docs/firestore/manage-data/add-data#update-data) official Docs site.
 
 The Read functions:
 

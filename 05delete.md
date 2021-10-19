@@ -13,7 +13,7 @@
 You can find the `Delete code` in this [branch](https://github.com/carobarreirov/crud-firebase/tree/delete) in the `main.js` [file](https://github.com/carobarreirov/crud-firebase/blob/delete/main.js)
 
 The `deleteDoc`module was added to our project.
-Find more information about this module on the [Firestore]() official Docs site.
+Find more information about this module on the [Firestore](https://firebase.google.com/docs/firestore/manage-data/delete-data#delete_documents) official Docs site.
 
 The Read functions:
 

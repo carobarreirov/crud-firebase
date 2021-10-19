@@ -13,7 +13,7 @@
 You can find the `Create code` in this [branch](https://github.com/carobarreirov/crud-firebase/tree/create) in the `main.js` [file](https://github.com/carobarreirov/crud-firebase/blob/create/main.js)
 
 The `collection`and `addDoc`modules were added to our project.
-Find more information about those modules on the [Firestore]() official Docs site.
+Find more information about those modules on the [Firestore](https://firebase.google.com/docs/firestore/manage-data/add-data#add_a_document) official Docs site.
 
 The function to Add Tasks:
 
