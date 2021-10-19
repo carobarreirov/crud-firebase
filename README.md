@@ -13,7 +13,7 @@ You can go to the To-Do List App on [crud-firebase repository](https://github.co
 You'll find and intro and more information about the tools we use. 
 In the App section you will be able to interact with the four CRUD operations through the shown interface.  
 
-![App Interface](/images/todo-app.jpg)
+![App Interface](/images/todo-app.png)
  
  # How to develop this App [Guide]
  ## Html and CSS, the UI
