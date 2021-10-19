@@ -60,4 +60,5 @@ In the same `index.html` file, head section, you can add a Bootstrap/Bootswatch 
 More templates on [Bootswatch](https://bootswatch.com/) and CDN links on [BootstrapCDN](https://www.bootstrapcdn.com/bootswatch/)
 
 > Home [here](/README.md)
+
 > Next Step [here](/01firebase.md)

@@ -23,4 +23,5 @@ const deleteTask = (id) => deleteDoc(doc(db, "tasks", id));
 ```
 
 > Previous Step [here](/04update.md)
+
 > Home [here](/README.md)

@@ -24,4 +24,5 @@ const updateTask = (id, updateTask) => updateDoc(doc(db, "tasks", id), updateTas
 ```
 
 > Previous Step [here](/03read.md)
+
 > Next Step [here](/05delete.md)
