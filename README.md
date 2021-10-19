@@ -1,9 +1,11 @@
 # JS [CRUD] App with Firebase
 
-Javascript To-Do List CRUD Application with Firebase-Firestore version 9.0.
+[Javascript To-Do List CRUD Application](https://carobarreirov.github.io/crud-firebase/#app) with Firebase-Firestore version 9.0.
 
 With this project we will apply our three web development layers: html, css and js to our first simple application: A To-Do List.
+
 Our application will have the four basic CRUD operations: create, read, update and delete.
+
 All our tasks will be stored in a database and all operations will be reflected in that database. For that last point we will use a Firebase service: Firestore.
 
 ## Content
