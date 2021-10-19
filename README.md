@@ -15,10 +15,12 @@ In the [App section](https://carobarreirov.github.io/crud-firebase/#app) you wil
 
 ![App Interface](/images/todo-app.png)
  
- Haven fun! 
  Everything you see is being updated on the console in our Firebase project under the Cloud Firestore database. 
  
  ![Cloud Firestore Console](/images/cfirestore.png)
+ 
+ Try it out!
+ ´Have fun
  
  # How to develop this App [Guide]
  ## Html and CSS, the UI
