@@ -10,7 +10,7 @@ All our tasks will be stored in a database and all operations will be reflected 
 
 - [Usage](#usage)
 - [How to develop this App](#how-to-develop-this-app-guide)
-- [Soport](#soport)
+- [Support](#support)
 - [Roadmap](#roadmap)
 - [License](#license)
 
@@ -38,7 +38,7 @@ Try it out! `Have fun`!
 5.  cr[U]d Operation [here](/04update.md)
 6.  cru[D] Operation [here](/05delete.md)
 
-## Soport
+## Team and Support
 
 [@carobarreirov](https://github.com/carobarreirov)
 
