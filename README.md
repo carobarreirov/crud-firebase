@@ -19,8 +19,7 @@ In the [App section](https://carobarreirov.github.io/crud-firebase/#app) you wil
  
  ![Cloud Firestore Console](/images/cfirestore.png)
  
- Try it out!
- ´Have fun
+ Try it out! `Have fun
  
  # How to develop this App [Guide]
  ## Html and CSS, the UI
