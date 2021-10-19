@@ -8,10 +8,4 @@
 5.  cr[U]d Operation [here](/04update.md)
 6.  cru[D] Operation [here](/05delete.md)
 
-## Firebase and Firestore
-
-## Start Firebase project and application
-
-### Import Firebase access
-
-### Import Firestore modules
+## [Create]rud Operation
