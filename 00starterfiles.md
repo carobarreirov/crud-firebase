@@ -4,7 +4,7 @@
 1.  Start UI project [here](/00starterfiles.md)
 2.  Start Firebase project [here](/01firebase.md)
 3.  [C]rud Operation [here](/02create.md)
-4.  c[R]ud Operation [here](/03add.md)
+4.  c[R]ud Operation [here](/03read.md)
 5.  cr[U]d Operation [here](/04update.md)
 6.  cru[D] Operation [here](/05delete.md)
 
@@ -59,4 +59,5 @@ In the same `index.html` file, head section, you can add a Bootstrap/Bootswatch 
 
 More templates on [Bootswatch](https://bootswatch.com/) and CDN links on [BootstrapCDN](https://www.bootstrapcdn.com/bootswatch/)
 
-<button name="button" onclick="http://www.google.com">Click me</button>
+> Home [here](/README.md)
+> Next Step [here](/01firebase.md)
