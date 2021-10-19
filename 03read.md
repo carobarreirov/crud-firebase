@@ -17,12 +17,11 @@ Find more information about those modules on the [Firestore]() official Docs sit
 
 The Read functions:
 
-````javascript
+```javascript
 const getTasks = () => getDocs(collection(db, "tasks"));
 const onGetTasks = (callback) => onSnapshot(collection(db, "tasks"), callback);
     });
-    ```
+```
 
 > Previous Step [here](/02create.md)
 > Next Step [here](/04update.md)
-````

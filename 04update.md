@@ -17,12 +17,11 @@ Find more information about those modules on the [Firestore]() official Docs sit
 
 The Read functions:
 
-````javascript
+```javascript
 const getTask = (id) => getDoc(doc(db, "tasks", id));
 const updateTask = (id, updateTask) => updateDoc(doc(db, "tasks", id), updateTask);
     });
-    ```
+```
 
 > Previous Step [here](/03read.md)
 > Next Step [here](/05delete.md)
-````

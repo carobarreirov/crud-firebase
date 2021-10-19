@@ -17,14 +17,13 @@ Find more information about those modules on the [Firestore]() official Docs sit
 
 The function to Add Tasks:
 
-````javascript
+```javascript
 const saveTask = (title, description) =>
-    addDoc(collection(db, "tasks"),{
-        title,
-        description,
-    });
-    ```
+  addDoc(collection(db, "tasks"), {
+    title,
+    description,
+  });
+```
 
-> Previous Step [here](/01firebase.md)
-> Next Step [here](/03read.md)
-````
+- > Previous Step [here](/01firebase.md)
+- > Next Step [here](/03read.md)

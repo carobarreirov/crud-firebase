@@ -17,11 +17,10 @@ Find more information about this module on the [Firestore]() official Docs site.
 
 The Read functions:
 
-````javascript
+```javascript
 const deleteTask = (id) => deleteDoc(doc(db, "tasks", id));
     });
-    ```
+```
 
 > Previous Step [here](/04update.md)
 > Home [here](/README.md)
-````
