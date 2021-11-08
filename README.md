@@ -13,8 +13,8 @@ All our tasks will be stored in a database and all operations will be reflected 
 - [Usage](#usage-computer) :computer:	
 - [How to develop this App](#how-to-develop-this-app-guide-keyboard) :keyboard:	
 - [Support](#team-and-support-triangular_flag_on_post) :triangular_flag_on_post:
-- [Roadmap](#roadmap) :bar_chart:	
-- [License](#license) :page_facing_up:	
+- [Roadmap](#roadmap-bar_chart) :bar_chart:	
+- [License](#license-page_facing_up) :page_facing_up:	
 
 ## Usage :computer:	
 
